@@ -115,7 +115,6 @@ function SkillsTech() {
                         <div div className="progress  mb-4" role="progressbar" style={{ height: ' 20px' }}
                             aria-label={`striped example 20px high${skill.type}`} aria-valuenow={skill.value} aria-valuemin="0"
                             aria-valuemax="100">
-                            <img className="technologie_skills" src={skill.picture} alt="logo_des_technologies" />
                             <div className={`progress-bar progress-bar-striped bg-${skill.type}`} style={{ width: `${skill.value}%`, fontSize: '1.5rem' }}>{skill.value}%
                             </div>
                         </div>
