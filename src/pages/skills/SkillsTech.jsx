@@ -91,7 +91,7 @@ function SkillsTech() {
             <div className="row" style={{ marginTop: '7rem' }}>
                 {skillsTech1.map((skill, index) => (
                     <div className="mt2 col-lg-12" key={index}>
-                        <h3 className={`m-3  text-${skill.type}`} style={{ fontWeight: 'bold' }}></h3>
+                        <h3 className={`m-3  text-${skill.type}`} style={{ fontWeight: 'bold' }}>{skill.name}</h3>
                         <div className="progress  mb-4" role="progressbar" style={{ height: '20px' }}
                             aria-label={`striped example 20px high${skill.type}`} aria-valuenow={skill.value} aria-valuemin="0"
                             aria-valuemax="100">
@@ -111,7 +111,7 @@ function SkillsTech() {
             <div className="row" style={{ marginTop: ' 10rem' }}>
                 {skillsTech2.map((skill, index) => (
                     <div className="mt2 col-lg-12 " key={index}>
-                        <h3 className={`m-3  text-${skill.type}`} style={{ fontWeight: 'bold' }}></h3>
+                        <h3 className={`m-3  text-${skill.type}`} style={{ fontWeight: 'bold' }}>{skill.name}</h3>
                         <div div className="progress  mb-4" role="progressbar" style={{ height: ' 20px' }}
                             aria-label={`striped example 20px high${skill.type}`} aria-valuenow={skill.value} aria-valuemin="0"
                             aria-valuemax="100">
